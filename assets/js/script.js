@@ -1,3 +1,6 @@
+let 
+
+
 function startGame()
 
 function setNextQuestion()

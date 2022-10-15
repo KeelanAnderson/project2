@@ -5,7 +5,7 @@
 }
 
 body {
-    
+
     background-color: #071D28;
     font-family: "Raleway", sans-serif;
     display: flex;
@@ -13,7 +13,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 /* --------- Heading */
@@ -34,7 +34,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
-   
+
 }
 
 .btn-grid {
@@ -42,7 +42,10 @@ body {
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 20px 0;
+    
+
 }
+
 
 .btn {
     background-color: #255991;
@@ -50,21 +53,24 @@ body {
     border: 1px solid #aae0c2;
     border-radius: 5px;
     padding: 5px 10px;
-    
+    font-size: 2rem;
+
 }
 
 .btn:hover {
     border-color: black;
 }
 
-.question-area {
+.questions {
+    font-size: 2rem;
+}
+
+.answer-btn {
     
 }
 
-.answer-area {
- 
-}
-
 .score-area {
-   
+    position: absolute;
+    bottom: 30%;
+    color: #fff;
 }
