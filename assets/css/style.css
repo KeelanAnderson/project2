@@ -65,12 +65,24 @@ body {
     font-size: 2rem;
 }
 
-.answer-btn {
-    
-}
-
 .score-area {
     position: absolute;
     bottom: 30%;
     color: #fff;
+}
+
+.start-btn, .next-btn {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
 }

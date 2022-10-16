@@ -14,15 +14,22 @@
     <h1 class="heading">Science Quiz</h1>
 
     <div class="game-area">
-        <div class="questions">Question?</div>
+        <div id="question-container" class="hide">
+        <div id="questions" class="questions">Question?</div>
         <div id="answer-buttons" class="btn-grid">
             <button class="btn">Answer 1</button>
             <button class="btn">Answer 1</button>
             <button class="btn">Answer 1</button>
             <button class="btn">Answer 1</button>
         </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
     </div>
-    <div class="score-area">
+
+    <div class="score-area hide">
         score: 0
     </div>
 
