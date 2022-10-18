@@ -1,35 +1,54 @@
-const startButton = document.getElementById('start-btn')
-const nextButton = document.getElementById('next-btn')
-const questionElement = document.getElementById('questions')
-const answerButtons = document.getElementById('answer-buttons')
+// const startButton = document.getElementById('start-btn')
+// const nextButton = document.getElementById('next-btn')
+// const questionElement = document.getElementById('questions')
+// const answerButtons = document.getElementById('answer-buttons')
 
-const questionContainer = document.getElementById('question-container')
+// const questionContainer = document.getElementById('question-container')
 
-startButton.addEventListener('click', startGame)
-nextButton.addEventListener('click', nextQuestion)
+// startButton.addEventListener('click', startGame)
+// nextButton.addEventListener('click', displayNextQuestion)
 
-let shuffledQuestions, currentQuestionIndex
+// let shuffledQuestions, currentQuestionIndex
 
-function startGame() {
-    startButton.classList.add('hide')
-    questionContainer.classList.remove('hide')
-    shuffledQuestions = questions.sort(() => Math.random() -0.5)
-    currentQuestionIndex = 0
-    nextQuestion()
-}
+// function startGame() {
+//     startButton.classList.add('hide')
+//     questionContainer.classList.remove('hide')
+//     shuffledQuestions = questions.sort(() => Math.random() -0.5)
+//     currentQuestionIndex = 0
+//     displayNextQuestion()
+// }
 
-function nextQuestion() {
-    showQuestion(shuffledQuestions[currentQuestionIndex])
+// function displayNextQuestion() {
+//     showQuestion(shuffledQuestions[currentQuestionIndex])
 
-}
+// }
 
-function showQuestion(question) {
-    questionElement.innerText = question.question
-}
+// function showQuestion(question) {
+//     questionElement.innerText = question.question
+//     question.answers.forEach(answers
+//          => {
+//         const button = document.getElementById('button')
+//         const answers = questions.slice('correct_answer', 'incorrect_answers')
+//         button.innerText = answers.text
+//         button.classList.add('btn')
+//         if('correct_answer') {
+//             button.dataset.correct = answers.correct
+//         }
+//         button.addEventListener('click', selectAnswer)
+//         answerButtons.appendChild(button)
+//     })
+// }
 
-function selectAnswer() {
+// function resetState() {
+//     nextButton.classList.add('hide')
+//     while(answerButtonElement.firstChild) {
+//         answerButtons.removeChild(answerButtons.firstChild)
+//     }
+// }
+
+// function selectAnswer() {
     
-}
+// }
 
 const questions = [
 
